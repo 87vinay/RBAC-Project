@@ -18,3 +18,10 @@ This project is an **RBAC (Role-Based Access Control)** Dashboard that manages u
 - **Responsive Design**: Works on all screen sizes.
 
 ---
+## Technologies Used
+- **Frontend**: ReactJS
+- **Styling**: CSS
+- **Backend**: Firebase Authentication and Realtime Database
+- **Routing**: React Router DOM
+
+---
