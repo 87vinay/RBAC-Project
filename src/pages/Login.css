@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.login-container {
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+register-link-container {
+  text-align: center;
+  margin-top: 10px;
+}
+.register-text {
+  font-size: 14px;
+  color: #555;
+}
+ .register-button {
+  border: none;
+  color: black;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 12px;
+} 
+.register-button:hover{
+  background: green;
+}
+.login-form {
+  width: 100%;
+  max-width: 360px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 0.5s ease-in-out;
+}
+.login-title {
+  font-size: 26px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+.form-label {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  display: block;
+  color: #444;
+}
+.form-input {
+  width: 100%;
+  padding: 12px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+.form-input:focus {
+  border-color: black;
+  box-shadow: 0 0 4px rgba(37, 117, 252, 0.4);
+  outline: none;
+}
+.login-button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #2575fc;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+.login-button:hover {
+  transform: translateY(-2px);
+}
+.login-button:active {
+  transform: translateY(0);
+}
+@media (max-width: 480px) {
+  .login-form {
+    padding: 15px;
+  }
+  .login-title {
+    font-size: 22px;
+  }
+  .form-input {
+    padding: 10px;
+    font-size: 13px;
+  }
+  .login-button {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
