@@ -35,3 +35,5 @@ This project is an **RBAC (Role-Based Access Control)**  Designed for administra
 - **Hosting**: Vercel
 
 ---
+## Important Notes
+-All features and functionalities are designed specifically for administrative users.
