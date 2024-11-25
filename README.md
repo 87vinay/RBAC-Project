@@ -1,6 +1,6 @@
 # RBAC Dashboard Project
 ## Overview
-This project is an **RBAC (Role-Based Access Control)** Dashboard that manages users, roles, and permissions efficiently. It is built with **ReactJS**, **Firebase**, and **CSS**, providing secure authentication and authorization.
+This project is an **RBAC (Role-Based Access Control)**  Designed for administrators Dashboard that manages users, roles, and permissions efficiently. It is built with **ReactJS**, **Firebase**, and **CSS**, providing secure authentication and authorization.
 ---
 ## Features
 - **Authentication**: Login and Register functionality with Firebase, including form validation for secure input handling.
@@ -32,5 +32,6 @@ This project is an **RBAC (Role-Based Access Control)** Dashboard that manages u
 - **Styling**: CSS
 - **Backend**: Firebase Authentication and Realtime Database
 - **Routing**: React Router DOM
+- **Hosting**: Vercel
 
 ---
